@@ -1,46 +1,6 @@
-# Dependencies
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-
-# Environment
+out/
+cache/
+lib/
 .env
-.env.local
-.env.*.local
-
-# Build outputs
-dist/
-build/
-target/
-*.egg-info/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
 *.log
-logs/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Testing
-coverage/
-.nyc_output/
-
-# Misc
-.cache/
-temp/
-tmp/
+.DS_Store
